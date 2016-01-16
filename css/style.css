@@ -1,33 +1,35 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
   
 }
-
+.about {
+  text-align: center;
+}
 .about h2 {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+  font-size: 30px;
 }
-p {
-  text-align: center
-}
-
-.member {
-  width: 30%;
-  padding-right: 10px;
+p.company {
   text-align: center;
+  font-size: 14px;
 }
 
 p.role {
   font-size: 14px;
+  line-height: 2%;
 }
 
 p.other {
   font-size: 13px;
 }
 
+.member {
+  padding-right: 10px;
+  text-align: center;
+}
 
-
-img {
+.member img {
   border-radius: 50%;
   width: 100%;
 }
