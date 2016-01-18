@@ -1,0 +1,124 @@
+body {
+    background: #FFF;
+    margin: 0;
+}
+
+
+/* Header */
+
+header {
+    background: #ab6e39;
+    height: 120vh;
+}
+
+header img {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 20px;
+}
+
+
+/* Meny */
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    list-style: none;
+    min-width: 250px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Behövs inte på mobil versionen
+
+nav a:hover {
+    color: #666;
+}
+
+*/
+
+
+/* Pres text */
+
+.presentation {
+    width: 320px;
+    margin: 0 auto;
+}
+
+.presentation p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background: #FFF;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+}
+
+
+/* Vad vi erbjuder */
+
+section.erbjuder {
+    background: #16783c;
+    height: 120vh;
+    margin: 0 auto;
+    /* max-width: 350px; */
+}
+
+.fig {
+    margin: 0 auto;
+    max-width: 350px;
+}
+
+section.erbjuder h2 {
+    margin: 0;
+    margin-bottom: 10px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+section.erbjuder figure img {
+    width: 75px;
+    height: 75px;
+    margin-left: 20px;
+    border: solid 2px black;
+    border-radius: 90px;
+    padding: 10px;
+    background: #fff;
+}
+
+figure {
+    margin: 5px;
+    margin-left: 20px;
+    width: 140px;
+    float: left;
+    text-align: center;
+}
+
+figcaption {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    width: 140px;
+    
+    padding: 2px;
+}
+
+.clear {
+    content: "";
+    display: table;
+    clear: both;
+}
