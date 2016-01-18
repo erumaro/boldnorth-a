@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+.grid-container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.column-4{
+    width: 31.6239%;
+    height: auto;
+    background: red;
+    display: inline-block;
+    position: relative;
+}
+
+/*.column-4:hover{
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+    transition: 0.6s;
+    background: black;
+}*/
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.front, .back{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.front{
+    z-index: 900;
+    transform: rotateX(0deg) rotateY(0deg);
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.back{
+    z-index: 800;
+    background: black;
+    color: white;
+    transform: rotateY(-179deg);
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    transition: all 0.4s ease-in-out 0s;
+}
