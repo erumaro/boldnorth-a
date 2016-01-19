@@ -8,6 +8,29 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,900,300,500' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
+    
+
+<!-- SMOOTH SCROLL -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
+<!-- End of SMOOTH SCROLL -->
+    
+    
 </head>
 	<section class="contact-info">
 		<form action="index.html" method="get">
@@ -60,14 +83,14 @@
             <img src="./img/logo_mobile.png">
             <nav>
                 <ul>
-                    <li><a href="#erbjuder">Våra tjänster</a></li>
+                    <li><a href="#services">Våra tjänster</a></li>
                     <li><a href="#">Cases</a></li>
                     <li><a href="#">Om oss</a></li>
                     <li><a href="#">Kontakt</a></li>
                 </ul>
             </nav>
 
-            <section class="presentation">
+            <section class="intro">
                 <p>Vi gör hemsidor för dig.</p>
                 <p>Inget uppdrag är för stort eller för litet för oss.</p>
                 <p>Vi skräddarsyr hemsidan efter era behov.</p>
@@ -75,9 +98,9 @@
 
         </header>
 
-        <section class="erbjuder">
+        <section class="services">
 
-            <h2 id="erbjuder">Våra tjänster</h2>
+            <h2 id="services">Våra tjänster</h2>
 
             <div class="fig">
             <figure class="html">
@@ -90,7 +113,7 @@
             </figure>
             
             
-                <figure class="css">
+                <figure>
                 <img src="./img/css.png">
                 <figcaption>
                 <p><em>CSS</em> är stylingspråket och med detta är möjligheterna att skapa en vacker hemsida oändliga.</p>
@@ -100,14 +123,14 @@
             <div class="clear">
             </div>
             
-            <figure class="js">
+            <figure>
                 <img src="./img/js.png">
                 <figcaption>
                     <p>Med <em>Javascript</em> går det att skapa en mängd olika funktioner som passar ert behov bäst.</p>
                 </figcaption>
             </figure>
 
-            <figure class="wp">
+            <figure>
                 <img src="./img/wp.png">
                 <figcaption>
                     <p><em>Wordpress</em> är den främsta bloggplattformen idag. Vi skapar en mall och ni som kund skapar innehållet.
