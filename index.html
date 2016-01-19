@@ -1,84 +1,33 @@
 <!DOCTYPE html>
 <html lang="sv">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BoldNorth</title>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,900,300,500' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/style.css">
-    
-
-<!-- SMOOTH SCROLL -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script>
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
-</script>
-<!-- End of SMOOTH SCROLL -->
-    
-    
-</head>
-	<section class="contact-info">
-		<form action="index.html" method="get">
-				<h1>Kontakta Oss</h1>
-				
-				<fieldset class="contact">
-					<legend>Kontaktinformation </legend>
-					<label for="fname">Förnamn</label>
-					<input type="text" id="fname" name="first_name">
-					
-					<label for="lname">Efternamn</label>
-					<input type="text" id="lname" name="last_name">
-
-					<label for="email">E-post</label>
-					<input type="email" id="email" name="email">
-
-				</fieldset>
-				
-				<fieldset class="message">
-					<legend>Meddelande</legend>
-					<label for="message">Skriv ett meddelande</label>
-					<textarea class="message" name="message" name="user_message"></textarea>
-					<button type="submit">Skicka</button>
-				</fieldset>
-			</form>
-			<h2>Hitta hit</h2>
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2022.7422877524887!2d18.073412452047325!3d59.537385701275035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9749a5b9292f%3A0x2aa15bc12e56714d!2sFornminnesv%C3%A4gen+5%2C+186+32+Vallentuna!5e0!3m2!1sen!2sse!4v1453201802115" 
-				frameborder="0" style="border:0" allowfullscreen>
-			</iframe>
-		</section>
-		<footer>
-			<section>
-				<h3>content</h3>
-			</section>
-				
-			<section>
-				<h3>content</h3>
-			</section>
-			<section>
-				<h3>content</h3>
-			</section>
-		</footer>
-<body>
-
-
-
-    <main>
-
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BoldNorth</title>
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,900,300,500' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="./css/normalize.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <!-- SMOOTH SCROLL -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>
+        $(function() {
+          $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+              if (target.length) {
+                $('html,body').animate({
+                  scrollTop: target.offset().top
+                }, 1000);
+                return false;
+              }
+            }
+          });
+        });
+        </script>
+        <!-- End of SMOOTH SCROLL -->
+    </head>
+    <body>
         <header>
             <img src="./img/logo_mobile.png">
             <nav>
@@ -97,59 +46,95 @@ $(function() {
             </section>
 
         </header>
+        <main>
+            <section class="services">
 
-        <section class="services">
+                <h2 id="services">Våra tjänster</h2>
 
-            <h2 id="services">Våra tjänster</h2>
+                <div class="fig">
+                <figure class="html">
+                    <img src="./img/html.png">
+                    <figcaption>
 
-            <div class="fig">
-            <figure class="html">
-                <img src="./img/html.png">
-                <figcaption>
-                
-                    <p>Med <em>HTML5</em> ökar möjligheterna att göra en snygg hemsida med animationer samt att göra den mer semantiskt korrekt.</p>
-                
-                </figcaption>
-            </figure>
-            
-            
+                        <p>Med <em>HTML5</em> ökar möjligheterna att göra en snygg hemsida med animationer samt att göra den mer semantiskt korrekt.</p>
+
+                    </figcaption>
+                </figure>
+
+
+                    <figure>
+                    <img src="./img/css.png">
+                    <figcaption>
+                    <p><em>CSS</em> är stylingspråket och med detta är möjligheterna att skapa en vacker hemsida oändliga.</p>
+                    </figcaption>
+                </figure>
+
+                <div class="clear">
+                </div>
+
                 <figure>
-                <img src="./img/css.png">
-                <figcaption>
-                <p><em>CSS</em> är stylingspråket och med detta är möjligheterna att skapa en vacker hemsida oändliga.</p>
-                </figcaption>
-            </figure>
-            
-            <div class="clear">
-            </div>
-            
-            <figure>
-                <img src="./img/js.png">
-                <figcaption>
-                    <p>Med <em>Javascript</em> går det att skapa en mängd olika funktioner som passar ert behov bäst.</p>
-                </figcaption>
-            </figure>
+                    <img src="./img/js.png">
+                    <figcaption>
+                        <p>Med <em>Javascript</em> går det att skapa en mängd olika funktioner som passar ert behov bäst.</p>
+                    </figcaption>
+                </figure>
 
-            <figure>
-                <img src="./img/wp.png">
-                <figcaption>
-                    <p><em>Wordpress</em> är den främsta bloggplattformen idag. Vi skapar en mall och ni som kund skapar innehållet.
-                    </p>
-                </figcaption>
-            </figure>
-            
-            
-            <div class="clear">
-            </div>
-                
-            </div>
-
-        </section>
-
-    </main>
+                <figure>
+                    <img src="./img/wp.png">
+                    <figcaption>
+                        <p><em>Wordpress</em> är den främsta bloggplattformen idag. Vi skapar en mall och ni som kund skapar innehållet.
+                        </p>
+                    </figcaption>
+                </figure>
 
 
+                <div class="clear">
+                </div>
 
-</body>
+                </div>
 
+            </section>
+            <section class="contact-info">
+            <form action="index.html" method="get">
+                    <h1>Kontakta Oss</h1>
+
+                    <fieldset class="contact">
+                        <legend>Kontaktinformation </legend>
+                        <label for="fname">Förnamn</label>
+                        <input type="text" id="fname" name="first_name">
+
+                        <label for="lname">Efternamn</label>
+                        <input type="text" id="lname" name="last_name">
+
+                        <label for="email">E-post</label>
+                        <input type="email" id="email" name="email">
+
+                    </fieldset>
+
+                    <fieldset class="message">
+                        <legend>Meddelande</legend>
+                        <label for="message">Skriv ett meddelande</label>
+                        <textarea class="message" name="message" name="user_message"></textarea>
+                        <button type="submit">Skicka</button>
+                    </fieldset>
+                </form>
+                <h2>Hitta hit</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2022.7422877524887!2d18.073412452047325!3d59.537385701275035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9749a5b9292f%3A0x2aa15bc12e56714d!2sFornminnesv%C3%A4gen+5%2C+186+32+Vallentuna!5e0!3m2!1sen!2sse!4v1453201802115" 
+                    frameborder="0" style="border:0" allowfullscreen>
+                </iframe>
+            </section>
+        </main>
+        <footer>
+            <section>
+                <h3>content</h3>
+            </section>
+
+            <section>
+                <h3>content</h3>
+            </section>
+            <section>
+                <h3>content</h3>
+            </section>
+        </footer>
+    </body>
 </html>
