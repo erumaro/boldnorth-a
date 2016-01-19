@@ -1,0 +1,253 @@
+body {
+    background: #FFF;
+    margin: 0;
+    font-size: 14px;
+}
+
+
+/* **************
+       MOBILE
+   ************** */
+
+
+/* HEADER */
+
+header {
+    background: #ab6e39;
+    height: 120vh;
+}
+
+header img {
+    width: 90%;
+    margin: 5%;
+}
+
+
+/* MENY */
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    list-style: none;
+    text-align: center; 
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* INTRO TEXT */
+
+.intro {
+    width: 330px;
+    margin: 10% auto;
+}
+
+.intro p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    background-color: #FFF;
+    padding: 3px;
+    margin: 5% 0;
+    border-radius: 3px;
+}
+
+
+/* VÅRA TJÄNSTER */
+
+section.services {
+    background: #16783c;
+    height: 130vh;
+    margin: 0 auto;
+}
+
+section.services h2 {
+    margin: 0;
+    padding: 5%;
+    text-align: center;
+}
+
+/* IKONER OCH BESKRIVNING */
+
+.fig {
+    width: 330px;
+    margin: 0 auto;
+}
+
+figure {
+    margin: 5px;
+    margin-left: 20px;
+    width: 165px;
+    float: left;
+    margin: 0 auto;
+}
+
+section.services figure img {
+    width: 75px;
+    height: 75px;
+    margin: 0 31px;
+    border: solid 3px black;
+    border-radius: 50px;
+    padding: 10px;
+    background: #fff;
+}
+
+figcaption {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    width: 140px;
+    margin: 0 auto;
+    border: 0;
+
+}
+
+.clear {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*contact*/
+* {
+	font-family: 'Roboto', sans-serif;
+}
+.contact-info {
+	max-width:500px;
+	margin:0 auto;
+}
+
+.contact-info 
+h1, 
+h2, 
+legend,
+label {
+	color:rgba(0,0,0,0.5);
+}
+
+.contact-info  h1, h2 {
+  margin: 20px 0 20px 0;
+  text-align: center;
+}
+/*Form*/
+form {
+  
+  border: 1px solid lightgrey;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 768px;
+  padding: 10px 0px;
+  background: rgba(0,0,0,0.085);
+  border-radius: 5px;
+}
+
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 16px;
+  padding: 15px;
+  width: 100%;
+  background-color: white;
+  color: #8a97a0;
+  box-shadow: 1px 1px 0 rgba(0,0,0,0.5) inset;
+  border:1px solid rgba(0,0,0,0.4);
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+textarea {
+	height: 250px;
+}
+
+.contact, 
+.message {margin-bottom: 30px;}
+
+form button {
+  padding: 12px 0 12px 0; 
+  color: rgba(0,0,0,0.5);
+  background-color: orange;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 5px;
+  width: 100%;
+  border: 2px solid grey;/*g򭭥r kanterna*/
+  
+}
+
+form button:hover {
+	box-shadow: 2px 2px 0px rgba(255,255,255,0.7) inset, 
+				-2px -2px 0px rgba(255,255,255,0.9) inset,
+				4px 4px 10px darkgreen inset , 
+				-4px -4px 10px darkgreen inset,
+				6px 6px 20px red inset , 
+				-6px -6px 20px red inset;
+				-webkit-transition: all 0.2s ease 0s;
+				color: rgba(255,255,255,0.8);
+				transition: all 0.2s ease 0s;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+fieldset {
+	border-radius: 5px;
+	text-align: center;
+}
+
+/*map*/
+
+
+iframe {
+	height: 300px;
+	width: 98%;
+	max-width: 768px;
+	padding: 5px 1%;
+}
+
+/*footer*/
+
+footer {
+	min-height: 200px;
+	background: black;
+}
+
+footer section {
+	background-color: rgba(255,255,255,0.2);
+	color: white;
+	box-sizing: border-box;
+	width: 100%;
+	height: 33%;
+	float: left;
+	padding-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+	footer section {
+		width: 33%;
+		height: 300px;
+	}
+
+
+}
