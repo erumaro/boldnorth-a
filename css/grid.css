@@ -19,16 +19,8 @@ body {
 
 
 [class*="col-"] {
-  margin: 0 10px 20px 10px;
+  margin: 0 10px 20px 18px;
   float: left;
-}
-
-.inner {
-  margin: 0 20px 20px 0;
-}
-
-.inner:last-child {
-  margin: 0 0 20px 0;
 }
 
 .col-1 {width: 8.33%;}
@@ -54,3 +46,6 @@ body {
     margin: 0 0 20px 0;
   }
 }
+
+
+
