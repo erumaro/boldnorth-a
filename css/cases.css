@@ -1,8 +1,12 @@
 /* Cases */
 .cases{
     min-height: 110vh;
-    background: lightblue;
     padding: 0 0 2% 0;
+}
+
+.cases header{
+    background: none;
+    height: auto;
 }
 
 .cases img{
