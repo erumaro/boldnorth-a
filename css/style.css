@@ -12,8 +12,11 @@ body {
 /* HEADER */
 
 header {
-    background: #ab6e39;
-    height: 120vh;
+    /* background: #ab6e39; */
+	background-image: url(/img/stockholm2.jpg);
+	background-size: cover;
+    height: 100vh;
+
 }
 
 header img {
@@ -24,7 +27,7 @@ header img {
 
 /* MENY */
 
-ul {
+nav ul {
     padding: 0;
     margin: 0;
 }
@@ -55,10 +58,11 @@ nav a {
     font-weight: bold;
     font-size: 1.2em;
     text-align: center;
-    background-color: #FFF;
-    padding: 3px;
+   /* background-color: #FFF; */
+    padding: 0px;
     margin: 5% 0;
-    border-radius: 3px;
+    border-radius: 0px;
+	color: #FFF;
 }
 
 
@@ -89,6 +93,19 @@ figure {
     width: 165px;
     float: left;
     margin: 0 auto;
+	box-sizing: border-box;
+}
+
+figure.css:after {
+	display: table;
+	content: ".";
+	clear: both;
+}
+
+figure.wp:after {
+	display: table;
+	content: "";
+	clear: both;
 }
 
 section.services figure img {
@@ -115,6 +132,8 @@ figcaption {
     display: table;
     clear: both;
 }
+
+/* *********************************************************************** */
 
 /* FONTS */
 
@@ -155,6 +174,7 @@ h6 {text-align: center;}
   width: 10%;
   border-top: 1px solid red;
 }
+>>>>>>> master
 
 /* Cases */
 .cases{
@@ -450,6 +470,86 @@ footer p {
     letter-spacing: 10px;
   }
 }
+
+/* *********************************************************************** */
+
+            .pad {
+            display: none;
+        }
+        
+        @media screen and (min-width: 768px) {
+            .mobile {
+                display: none;
+            }
+            .pad {
+                display: inline-block;
+            }
+            header img {
+                width: 30%;
+                margin-top: 5%;
+                margin-left: 5%;
+                margin-right: 0;
+            }
+            header {
+                /* background: #ab6e39; */
+				background-image: url(/img/stockholm2.jpg);
+				background-size: cover;
+                height: 120vh;
+            }
+   
+            
+            /* MENY DESKTOP */
+            nav {
+                float: right;
+                margin-top: 7.4%;
+                margin-right: 5%;
+            }
+            nav ul {
+                padding: 0;
+                margin: 0;
+            }
+            nav li {
+                font-family: 'Roboto', sans-serif;
+                font-weight: bold;
+                font-size: 2vw;
+                list-style: none;
+                text-align: left;
+                display: inline-block;
+                padding-left: 20px;
+            }
+            nav a {
+                text-decoration: none;
+                color: black;
+            }
+            nav a:hover {
+                text-decoration: none;
+                color: white;
+            }
+   
+            
+            /* INTRO TEXT */
+            .intro {
+                min-width: 960px;
+                margin: 1% auto; 
+            }
+            .intro p {
+                font-family: 'Roboto', sans-serif;
+                font-weight: 100;
+                font-size: 2.5vw;
+                text-align: left;
+                padding: 1px;
+                margin: 2% 0;
+                border-radius: 0px;
+				}
+    
+
+    
+/* *********************************************************************** */
+    
+    
+    
+    
+    
 
 @media screen and (min-width: 768px) {
 	footer {
