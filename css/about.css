@@ -1,3 +1,8 @@
+.about-wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
 /* --- ABOUT --- */
   
 .about {
@@ -48,7 +53,7 @@
     opacity: 1.0;
 }
 .thumb > div div {
-    padding: 20px 40px;
+    padding: 80px 40px;
 }
 .thumb p {
     margin-bottom: 10px;
