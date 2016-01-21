@@ -1,3 +1,8 @@
+.about-wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
 /* --- ABOUT --- */
   
 .about {
@@ -48,7 +53,7 @@
     opacity: 1.0;
 }
 .thumb > div div {
-    padding: 20px 40px;
+    padding: 80px 40px;
 }
 .thumb p {
     margin-bottom: 10px;
@@ -80,11 +85,4 @@
   .rubrik > h1 {
     letter-spacing: 10px;
   }
-}
-
-@media screen and (min-width: 1024px) {
-    .case-item{
-        width: 31%;
-        margin: 1%;
-    }
 }
