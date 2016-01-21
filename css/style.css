@@ -1,12 +1,36 @@
-/* --- RUBRIK --- */
-.rubrik h2 {
-  font-family: 'Open sans', sans-serif;
-  font-weight: 900;
-  font-size: 50px;
+
+/* FONTS */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+/* FONTS END */
+
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 1px;
 }
-.rubrik span {
-  font-size: 55px;
-  color: red;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {text-align: center;}
+
+
+/* --- RUBRIK --- */
+.rubrik > h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  letter-spacing: 20px;
+  line-height: 70px;
+  color: #000;
 }
 
 .rubrik hr {
@@ -14,6 +38,7 @@
   width: 10%;
   border-top: 1px solid red;
 }
+
 
 /* --- ABOUT --- */
   
@@ -28,15 +53,16 @@
 .icon {
   margin-right: 5px;
   color: #fff;
-  transition: all 0.5s ease-out;
+  transition:: all 0.5s ease-out;
 }
 
 .icon:hover {
-  color: red;
+  color: #ff4040;
   transition: all 0.5s ease-out;
 }
 
 .thumb {
+    margin-top: 20px;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -53,11 +79,11 @@
     height: 100%;
     top: 0;
     left: 0;
-    color: #ccc;
+    color: #fff;
     -webkit-transition: opacity 0.3s linear;
--moz-transition: opacity 0.3s linear;
--ms-transition: opacity 0.3s linear;
--o-transition: opacity 0.3s linear;
+    -moz-transition: opacity 0.3s linear;
+    -ms-transition: opacity 0.3s linear;
+    -o-transition: opacity 0.3s linear;
 }
 .thumb:hover > div {
     display: block;
@@ -70,27 +96,34 @@
     margin-bottom: 10px;
 }
 
-.thumb p.role {
-  font-size: 14px;
-  color: #a5a5a5;
-  text-decoration: none;
+/* THE TEAM PT.2 --MEMBER & POSITION-- */
+
+.member h2 {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+}
+.member-position h4 {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin-top: -20px;
 }
 
-h2 {
-    color: #333;
-    line-height: 30px;
-    font-size: 20px;
-    letter-spacing: -1px;
-    text-align: center;
-    margin: 0 0 20px;
-    
-}
 
+/* RESPONSIVE */
 
 @media only screen and (max-width: 480px) {
   .thumb {
     width: 300px;
     margin: 0 10px 0 0;
   } 
+  .rubrik > h1 {
+    letter-spacing: 10px;
+  }
 }
 
