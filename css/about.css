@@ -81,10 +81,3 @@
     letter-spacing: 10px;
   }
 }
-
-@media screen and (min-width: 1024px) {
-    .case-item{
-        width: 31%;
-        margin: 1%;
-    }
-}
