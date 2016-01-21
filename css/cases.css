@@ -1,0 +1,57 @@
+/* Cases */
+.cases{
+    min-height: 110vh;
+    background: lightblue;
+    padding: 0 0 2% 0;
+}
+
+.cases img{
+    width: 100%;
+    height: auto;
+}
+
+.cases h2, .cases h3{
+    margin-top: 0;
+    padding-top: 1.3em;
+}
+
+.case-wrapper{
+    width: 95%;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.case-item{
+    height: 400px;
+    background: #ebebeb;
+    position: relative;
+    margin: 3%;
+}
+
+.case-item img{
+    display: block;
+    height: 200px;
+}
+
+.back{
+    padding: 2%;
+}
+
+.project-links{
+    list-style: none;
+    color: #fff;
+}
+
+.project-links li{
+    display: inline-block;
+    padding: 2%;
+    width: 80px;
+    background: #333;
+}
+
+@media screen and (min-width: 768px) {
+	.case-item{
+		width: 44%;
+		float: left;
+	}
+}

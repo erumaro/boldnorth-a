@@ -1,0 +1,89 @@
+/* HEADER */
+
+header {
+    /* background: #ab6e39; */
+	background-image: url(/img/stockholm2.jpg);
+	background-size: cover;
+    height: 100vh;
+
+}
+
+header img {
+    width: 90%;
+    margin: 5%;
+}
+
+
+/* MENY */
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    list-style: none;
+    text-align: center; 
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.pad {
+	display: none;
+}
+
+@media screen and (min-width: 768px) {
+	.mobile {
+		display: none;
+	}
+	.pad {
+		display: inline-block;
+	}
+	header img {
+		width: 30%;
+		margin-top: 5%;
+		margin-left: 5%;
+		margin-right: 0;
+	}
+	header {
+		/* background: #ab6e39; */
+		background-image: url(/img/stockholm2.jpg);
+		background-size: cover;
+		height: 120vh;
+	}
+
+
+	/* MENY DESKTOP */
+	nav {
+		float: right;
+		margin-top: 7.4%;
+		margin-right: 5%;
+	}
+	nav ul {
+		padding: 0;
+		margin: 0;
+	}
+	nav li {
+		font-family: 'Roboto', sans-serif;
+		font-weight: bold;
+		font-size: 2vw;
+		list-style: none;
+		text-align: left;
+		display: inline-block;
+		padding-left: 20px;
+	}
+	nav a {
+		text-decoration: none;
+		color: black;
+	}
+	nav a:hover {
+		text-decoration: none;
+		color: white;
+	}
+}

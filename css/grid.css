@@ -1,16 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
-body:hover {
-  background: url(../img/12_col.gif) center top repeat-y;
-}
-body {
-  width: 960px;
-  margin: 0 auto;
-  height: 300px;
-}
-
 .row:after {
   content: "";
   clear:both;
