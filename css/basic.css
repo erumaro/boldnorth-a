@@ -1,0 +1,44 @@
+/* GENERIC STYLES */
+body {
+    background: #FFF;
+    margin: 0;
+    font-size: 14px;
+}
+
+.clear {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* TEXT STYLING */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {text-align: center;}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+/* --- RUBRIK --- */
+.rubrik > h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  letter-spacing: 20px;
+  line-height: 70px;
+  color: #000;
+}
+
+.rubrik hr {
+  margin: 20px auto;
+  width: 10%;
+  border-top: 1px solid red;
+}
