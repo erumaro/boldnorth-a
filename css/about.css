@@ -80,10 +80,13 @@
 }
 
 @media only screen and (max-width: 480px) {
+  .about {
+  }
+  
   .thumb {
-    width: 300px;
-    margin: 0 10px 0 0;
+    width: 100%;
   } 
+  
   .rubrik > h1 {
     letter-spacing: 10px;
   }
