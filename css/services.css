@@ -2,7 +2,8 @@
 
 section.services {
     background: #16783c;
-    height: 130vh;
+    height: 100vh;
+    width: 100vw;
     margin: 0 auto;
 }
 
@@ -12,49 +13,82 @@ section.services h2 {
     text-align: center;
 }
 
+section.services {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
 /* IKONER OCH BESKRIVNING */
 
 .fig {
-    width: 330px;
+    width: 90%;
     margin: 0 auto;
+}
+
+.fig:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 figure {
-    margin: 5px;
-    margin-left: 20px;
-    width: 165px;
+    /* background: #CCC; */
     float: left;
-    margin: 0 auto;
-	box-sizing: border-box;
+    margin: 2px auto;
+    width: 100%
 }
 
 figure.css:after {
-	display: table;
-	content: ".";
-	clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 figure.wp:after {
-	display: table;
-	content: "";
-	clear: both;
+    display: table;
+    content: "";
+    clear: both;
 }
 
 section.services figure img {
-    width: 75px;
-    height: 75px;
-    margin: 0 31px;
+    width: 20%;
+    display: block;
+    margin: 0 auto;
     border: solid 3px black;
-    border-radius: 50px;
-    padding: 10px;
+    border-radius: 100%;
+    padding: 2%;
     background: #fff;
 }
 
 figcaption {
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    width: 140px;
+    /* background: #666; */
+    width: 80%;
     margin: 0 auto;
     border: 0;
+}
 
+@media screen and (min-width: 768px) {
+    section.services h2 {
+        margin: 0;
+        padding: 5%;
+        text-align: center;
+    }
+    .fig {
+        min-width: 90%;
+        margin: 0 auto;
+        margin-top: 5%;
+    }
+    figure {
+        /* background: #999; */
+        float: left;
+        margin: 2px 0;
+        width: 25%
+    }
+    section.services figure img {
+        width: 50%;
+    }
 }
