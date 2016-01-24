@@ -13,18 +13,7 @@
 
 /* --- THE TEAM--- */
 
-.icon {
-  margin-right: 5px;
-  color: #fff;
-    -webkit-transition: color 0.3s linear;
-  -moz-transition: color 0.3s linear;
-  -ms-transition: color 0.3s linear;
-  -o-transition: color 0.3s linear;
-}
 
-.icon:hover {
-  color: #ff4040;
-}
 
 .thumb {
     margin-top: 20px;
@@ -59,6 +48,19 @@
 }
 .thumb p {
     margin-bottom: 10px;
+}
+
+.thumb a {
+  margin-right: 5px;
+  color: #fff;
+    -webkit-transition: color 0.3s linear;
+  -moz-transition: color 0.3s linear;
+  -ms-transition: color 0.3s linear;
+  -o-transition: color 0.3s linear;
+}
+
+.thumb a:hover {
+  color: #ff4040;
 }
 
 /* THE TEAM PT.2 --MEMBER & POSITION-- */
