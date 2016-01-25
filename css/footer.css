@@ -24,7 +24,11 @@ footer:last-child {
 footer section:last-child {
 	border:0;
 }
+
+.logo {
 	
+}	
+
 .social img {
 	float: left;
 	height: 60px;
@@ -57,7 +61,7 @@ footer section:last-child {
 	margin-top: 10px;
 }
 
-footer h3 {
+footer h1 {
 	color: black;
 	font-size: 1.9em;
 	font-weight: normal;
