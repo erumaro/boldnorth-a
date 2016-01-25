@@ -1,9 +1,13 @@
+
 .about-wrapper {
   width: 100vw;
-  height: 100vh;
-  margin: 0 5%;
+  margin: 0 auto;
 }
 
+.members {
+  width: 100vw;  
+  margin: 0 5%;
+}
 /* --- ABOUT --- */
   
 .about {
@@ -81,7 +85,7 @@
 
 @media only screen and (max-width: 480px) {
   
-  .about-wrapper {
+.members {
   margin: 0 auto;
 }
   .thumb {
