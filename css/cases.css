@@ -23,10 +23,12 @@
     width: 95%;
     margin: 0 auto;
     list-style: none;
+	padding: 0;
 }
 
 .case-item{
-    height: 400px;
+    min-height: 400px;
+	height: auto;
     background: #ebebeb;
     position: relative;
     margin: 3%;
@@ -52,6 +54,19 @@
     padding: 2%;
     width: 80px;
     background: #333;
+}
+
+.project-links li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.project-links li a:hover{
+	text-decoration: underline;
+}
+
+.project-links li a i{
+	margin-right: 6px;
 }
 
 @media screen and (min-width: 768px) {
