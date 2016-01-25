@@ -1,8 +1,12 @@
 /* Cases */
 .cases{
     min-height: 110vh;
-    background: lightblue;
     padding: 0 0 2% 0;
+}
+
+.cases header{
+    background: none;
+    height: auto;
 }
 
 .cases img{
@@ -40,6 +44,7 @@
 .project-links{
     list-style: none;
     color: #fff;
+    padding: 0;
 }
 
 .project-links li{
@@ -54,8 +59,9 @@
 		width: 44%;
 		float: left;
 	}
-  
-  @media screen and (min-width: 1024px) {
+}
+
+@media screen and (min-width: 1024px) {
     .case-item{
         width: 31%;
         margin: 1%;
