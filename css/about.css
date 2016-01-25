@@ -1,8 +1,7 @@
 .about-wrapper {
-  /* width: 90%; */
-	width: 100vw;
+  width: 100vw;
   height: 100vh;
-  margin: 0 auto;
+  margin: 0 5%;
 }
 
 /* --- ABOUT --- */
@@ -14,8 +13,6 @@
 }
 
 /* --- THE TEAM--- */
-
-
 
 .thumb {
     margin-top: 20px;
@@ -84,22 +81,25 @@
 
 @media only screen and (max-width: 480px) {
   
+  .about-wrapper {
+  margin: 0 auto;
+}
   .thumb {
     width: 100%;
   } 
-  
   .rubrik > h1 {
     letter-spacing: 10px;
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 481px) {
  .thumb > div div {
     padding: 50px 40px;
 }
   .thumb i {
     font-size: 14px;
   }
+
 }
 
 @media only screen and (min-width: 1024px) {
