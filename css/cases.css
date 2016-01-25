@@ -56,6 +56,19 @@
     background: #333;
 }
 
+.project-links li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.project-links li a:hover{
+	text-decoration: underline;
+}
+
+.project-links li a i{
+	margin-right: 6px;
+}
+
 @media screen and (min-width: 768px) {
 	.case-item{
 		width: 44%;
