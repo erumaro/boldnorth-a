@@ -1,3 +1,5 @@
+<!doctype html>
+<html>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -6,6 +8,9 @@
 	<link rel="stylesheet" type="text/css" href="css/grid.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/about.css">
+    
     <!-- SMOOTH SCROLL -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>
@@ -64,8 +69,6 @@
 
                 </figcaption>
             </figure>
-
-
                 <figure class="css">
                 <img src="./img/css.png">
                 <figcaption>
@@ -265,52 +268,82 @@ erbjuder vi en helhets lösning då vi också hostar hemsidorna på egna servrar
   </section>
 		<div class="clear"></div>
 		<div class="contact-wrapper">
-        <section class="contact-info">
-        <form action="index.html" method="get">
-                <h2>Kontakta Oss</h2>
+			<section class="contact-info">
+			<form action="index.html" method="get">
+					<h2>KONTAKTA OSS</h2>
+					<hr>
+					<fieldset class="contact">
+						<legend>Kontaktinformation</legend>
+						<label for="fname">Förnamn</label>
+						<input type="text" id="fname" name="first_name">
 
-                <fieldset class="contact">
-                    <legend>Kontaktinformation</legend>
-                    <label for="fname">Förnamn</label>
-                    <input type="text" id="fname" name="first_name">
+						<label for="lname">Efternamn</label>
+						<input type="text" id="lname" name="last_name">
 
-                    <label for="lname">Efternamn</label>
-                    <input type="text" id="lname" name="last_name">
-
-                    <label for="email">E-post</label>
-                    <input type="email" id="email" name="email">
-
-                </fieldset>
-
-                <fieldset class="message">
-                    <legend>Meddelande</legend>
-                    <label for="message">Skriv ett meddelande</label>
-                    <textarea class="message" name="message" name="user_message"></textarea>
-                    <button type="submit">Skicka</button>
-                </fieldset>
-            </form>
-			
-            <h2>Hitta hit</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2022.7422877524887!2d18.073412452047325!3d59.537385701275035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9749a5b9292f%3A0x2aa15bc12e56714d!2sFornminnesv%C3%A4gen+5%2C+186+32+Vallentuna!5e0!3m2!1sen!2sse!4v1453201802115" 
-                frameborder="0" style="border:0" allowfullscreen>
-            </iframe>
-        </section>
+						<label for="email">E-post</label>
+						<input type="email" id="email" name="email">
+					</fieldset>
+					<fieldset class="message">
+						<legend>Meddelande</legend>
+						<label>Skriv ett meddelande</label>
+						<textarea class="message" name="user_message"></textarea>
+						<button type="submit">Skicka</button>
+					</fieldset>
+				</form>
+				
+				<h2>HITTA HIT</h2>
+				<hr>
+				<div class="map lighten">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2022.7422877524887!2d18.073412452047325!3d59.537385701275035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9749a5b9292f%3A0x2aa15bc12e56714d!2sFornminnesv%C3%A4gen+5%2C+186+32+Vallentuna!5e0!3m2!1sen!2sse!4v1453201802115" 
+					 allowfullscreen>
+				</iframe>
+				</div>
+			</section>
 		</div>
     </main>
-    <footer>
+    <footer class="clear">
         <section>
-           	<h3>Adress</h3>
-			<p>
-			   Bold North<br> 
-			   Vägen4<br>
-			   186 88 Trångsund
-			</p>
+			<div class="footer-content">
+				<figure>
+					<img src="img/footer_logo.png" alt="logotype">
+				</figure>
+				<p>&copy; 2016 Bold North<br>All Rights Reserved</p>
+			</div>
         </section>
         <section>
-            <h3>content</h3>
+			<div class="footer-content">
+				<h3>KONTAKT</h3>
+				<p>Sjumilavägen 8<br>
+				   186 79 Sjumilaskogen<br>
+				   Tel: 055-55 55 55<br>
+				   <a href=“boldnorth@hotmail.com”>Skicka ett mejl</a>
+				</p>
+			</div>
         </section>
         <section>
-            <h3>content</h3>
+        	<div class="footer-content">
+				<h3>SOCIALA MEDIER</h3>
+				<div class="social">
+					<a href="http://www.facebook.com">
+						<img class="tilt darken" src="img/social/1453470509_social_media_icons_elance_2-01.png" alt="facebook">
+					</a>
+				</div>
+				<div class="social">
+					<a href="">
+						<img class="tilt darken" src="img/social/1453470567_social_media_icons_elance_2-05.png" alt="twitter">
+					</a>
+				</div>
+				<div class="social">
+					<a href="">
+						<img class="tilt darken" src="img/social/1453470576_social_media_icons_elance_2-08.png" alt="linkedin">
+					</a>
+				</div>
+				<div class="social">
+					<a href="">
+						<img class="tilt darken" src="img/social/1453470588_social_media_icons_elance_2-03.png" alt="googleplus">
+					</a>
+				</div>
+			</div>
         </section>
     </footer>
 </body>
