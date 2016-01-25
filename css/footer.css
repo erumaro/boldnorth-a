@@ -11,7 +11,6 @@ footer section {
 	color: rgba(255,255,255,0.4);
 	float: left;
 	min-height: 100px;
-	padding-left: 10px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	width: 100%;
@@ -24,7 +23,11 @@ footer:last-child {
 footer section:last-child {
 	border:0;
 }
+
+.logo {
 	
+}	
+
 .social img {
 	float: left;
 	height: 60px;
@@ -35,8 +38,9 @@ footer section:last-child {
 }
 
 .footer-content {
-	margin-left: 20px;
-	width: 100%;
+	box-sizing: border-box;
+	margin-left:5%;
+	width: 95%;
 	line-height: 2.2em;
 }
 	
@@ -57,7 +61,7 @@ footer section:last-child {
 	margin-top: 10px;
 }
 
-footer h3 {
+footer h1 {
 	color: black;
 	font-size: 1.9em;
 	font-weight: normal;

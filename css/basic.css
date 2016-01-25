@@ -1,9 +1,12 @@
 /* GENERIC STYLES */
-body {
+html, body {
     background: #FFF;
-    margin: 0;
     font-size: 14px;
-	overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
 
 .clear {

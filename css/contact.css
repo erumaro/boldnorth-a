@@ -15,7 +15,7 @@
 	
 }
 
-.contact-info h2, 
+.contact-info h1, 
 .contact-info legend,
 .contact-info label {
 	color: rgba(255,255,255,0.7);
@@ -30,7 +30,7 @@ hr {
     width: 35%;
 }
 
-.contact-info h2 {
+.contact-info h1 {
 	font: normal 30px/70px 'Roboto', sans-serif;
 	letter-spacing: 20px;
     margin-bottom: 0;
