@@ -1,94 +1,67 @@
 /* VÅRA TJÄNSTER */
 
 section.services {
-    background: #16783c;
+    background: #FFF;
     height: 100vh;
     width: 100vw;
-    margin: 0 auto;
-}
+    }
 
 section.services h2 {
     margin: 0;
     padding: 5%;
     text-align: center;
-}
+    }
 
-section.services {
+section.services:after {
     content: "";
     display: table;
     clear: both;
-}
-
+    }
 
 /* IKONER OCH BESKRIVNING */
 
-.fig {
-    width: 90%;
-    margin: 0 auto;
-}
-
-.fig:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 figure {
-    /* background: #CCC; */
     float: left;
-    margin: 2px auto;
-    width: 100%
-}
+    margin: 10px auto;
+    }
 
 figure.css:after {
     content: "";
     display: table;
     clear: both;
-}
+    }
 
 figure.wp:after {
     display: table;
     content: "";
     clear: both;
-}
+    }
 
 section.services figure img {
     width: 20%;
     display: block;
     margin: 0 auto;
-    border: solid 3px black;
+    border: solid 2px #000;
     border-radius: 100%;
     padding: 2%;
-    background: #fff;
-}
+    background: #FFF;
+    }
 
 figcaption {
     font-family: 'Roboto', sans-serif;
-    text-align: center;
-    /* background: #666; */
+    text-align: left;
     width: 80%;
-    margin: 0 auto;
-    border: 0;
-}
+    margin: 10% auto;
+    }
 
 @media screen and (min-width: 768px) {
-    section.services h2 {
-        margin: 0;
-        padding: 5%;
-        text-align: center;
+    
+figure {
+    width: 25%;
+    margin: 5% auto;
     }
-    .fig {
-        min-width: 90%;
-        margin: 0 auto;
-        margin-top: 5%;
-    }
-    figure {
-        /* background: #999; */
-        float: left;
-        margin: 2px 0;
-        width: 25%
-    }
-    section.services figure img {
-        width: 50%;
+    
+section.services figure img {
+    width: 50%;
     }
 }
