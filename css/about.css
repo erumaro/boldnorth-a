@@ -104,5 +104,7 @@
  .thumb > div div {
     padding: 100px 40px;
 }
-
+   .thumb i {
+    font-size: 18px;
+  }
 }
