@@ -1,60 +1,67 @@
 /* VÅRA TJÄNSTER */
 
 section.services {
-    background: #16783c;
-    height: 130vh;
-    margin: 0 auto;
-}
+    background: #FFF;
+    height: 100vh;
+    width: 100vw;
+    }
 
 section.services h2 {
     margin: 0;
     padding: 5%;
     text-align: center;
-}
+    }
+
+section.services:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
 
 /* IKONER OCH BESKRIVNING */
 
-.fig {
-    width: 330px;
-    margin: 0 auto;
-}
-
 figure {
-    margin: 5px;
-    margin-left: 20px;
-    width: 165px;
     float: left;
-    margin: 0 auto;
-	box-sizing: border-box;
-}
+    margin: 10px auto;
+    }
 
 figure.css:after {
-	display: table;
-	content: ".";
-	clear: both;
-}
+    content: "";
+    display: table;
+    clear: both;
+    }
 
 figure.wp:after {
-	display: table;
-	content: "";
-	clear: both;
-}
+    display: table;
+    content: "";
+    clear: both;
+    }
 
 section.services figure img {
-    width: 75px;
-    height: 75px;
-    margin: 0 31px;
-    border: solid 3px black;
-    border-radius: 50px;
-    padding: 10px;
-    background: #fff;
-}
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+    border: solid 2px #000;
+    border-radius: 100%;
+    padding: 2%;
+    background: #FFF;
+    }
 
 figcaption {
     font-family: 'Roboto', sans-serif;
-    text-align: center;
-    width: 140px;
-    margin: 0 auto;
-    border: 0;
+    text-align: left;
+    width: 80%;
+    margin: 10% auto;
+    }
 
+@media screen and (min-width: 768px) {
+    
+figure {
+    width: 25%;
+    margin: 5% auto;
+    }
+    
+section.services figure img {
+    width: 50%;
+    }
 }

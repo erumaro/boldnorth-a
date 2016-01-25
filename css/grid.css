@@ -6,7 +6,7 @@
 
 
 [class*="col-"] {
-  margin: 0 10px 20px 18px;
+  margin: 0 25px 25px 25px;
   float: left;
 }
 
@@ -24,9 +24,6 @@
 .col-12 {width: 98%;}
 
 @media only screen and (max-width: 480px) {
-  body {
-    width: 300px;
-  }
   
   [class*="col-"] {
     width: 300px;
