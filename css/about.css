@@ -48,7 +48,7 @@
     opacity: 1.0;
 }
 .thumb > div div {
-    padding: 100px 40px;
+    padding: 30% 15%;
 }
 .thumb p {
     margin-bottom: 10px;
@@ -85,32 +85,30 @@
 
 @media only screen and (max-width: 480px) {
   
-.members {
+  .members {
   margin: 0 auto;
-}
+  }
   .thumb {
     width: 100%;
   } 
+  .thumb div div {
+    font-size: 30px;
+  }
   .rubrik > h1 {
     letter-spacing: 10px;
   }
 }
 
 @media only screen and (min-width: 481px) {
- .thumb > div div {
-    padding: 50px 40px;
-}
+  
   .thumb i {
-    font-size: 14px;
+    font-size: 20px;
   }
-
 }
 
 @media only screen and (min-width: 1024px) {
- .thumb > div div {
-    padding: 100px 40px;
-}
+
    .thumb i {
-    font-size: 18px;
+    font-size: 24px;
   }
 }
