@@ -15,18 +15,7 @@
 
 /* --- THE TEAM--- */
 
-.icon {
-  margin-right: 5px;
-  color: #fff;
-    -webkit-transition: color 0.3s linear;
-  -moz-transition: color 0.3s linear;
-  -ms-transition: color 0.3s linear;
-  -o-transition: color 0.3s linear;
-}
 
-.icon:hover {
-  color: #ff4040;
-}
 
 .thumb {
     margin-top: 20px;
@@ -46,6 +35,7 @@
     height: 100%;
     top: 0;
     left: 0;
+    bottom: 0;
     color: #fff;
     -webkit-transition: opacity 0.3s linear;
     -moz-transition: opacity 0.3s linear;
@@ -57,10 +47,21 @@
     opacity: 1.0;
 }
 .thumb > div div {
-    padding: 80px 40px;
+    padding: 100px 40px;
 }
 .thumb p {
     margin-bottom: 10px;
+}
+.thumb a {
+  margin-right: 5px;
+  color: #fff;
+    -webkit-transition: color 0.3s linear;
+  -moz-transition: color 0.3s linear;
+  -ms-transition: color 0.3s linear;
+  -o-transition: color 0.3s linear;
+}
+.thumb a:hover {
+  color: #ff4040;
 }
 
 /* THE TEAM PT.2 --MEMBER & POSITION-- */
@@ -89,5 +90,23 @@
   
   .rubrik > h1 {
     letter-spacing: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+ .thumb > div div {
+    padding: 50px 40px;
+}
+  .thumb i {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+ .thumb > div div {
+    padding: 100px 40px;
+}
+   .thumb i {
+    font-size: 18px;
   }
 }
