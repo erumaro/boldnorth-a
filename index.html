@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boldnorth</title>
     <link rel="stylesheet" href="./css/normalize.css">
-	<!-- <link rel="stylesheet" type="text/css" href="css/grid.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/grid.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <!-- SMOOTH SCROLL -->
@@ -29,14 +29,14 @@
 </head>
 <body>
     <header>
-            <img src="./img/logo_mobile.png" class="mobile">
-            <img src="./img/logo.png" class="pad">
+            <img src="./img/mobile_logo_white.png" alt="Bold North" class="mobile">
+            <img src="./img/desktop_logo_white.png" alt="Bold North" class="desktop">
         <nav>
             <ul>
-                <li><a href="#services">Våra tjänster</a></li>
-                <li><a href="#">Cases</a></li>
-                <li><a href="#">Om oss</a></li>
-                <li><a href="#">Kontakt</a></li>
+                <li><a class="slide" href="#services">Våra tjänster</a></li>
+                <li><a class="slide" href="#">Cases</a> </li>
+                <li><a class="slide" href="#">Om oss</a></li>
+                <li><a class="slide" href="#">Kontakt</a></li>
             </ul>
         </nav>
         
@@ -44,24 +44,30 @@
         </div>
         
         <section class="intro">
-          <p>Vi gör hemsidor för dig.</p>
+            <p>Vi gör hemsidor för dig.</p>
             <p>Inget uppdrag är för stort eller för litet för oss.</p>
             <p>Vi skräddarsyr hemsidan efter era behov.</p>
-            
         </section>
 
     </header>
     <main>
  
 <section class="services">
-
-    <h2 id="services">Våra tjänster</h2>
+    
+    <div class="rubrik">
+     <h1 id="services">Våra tjänster</h1>
+    <hr>
+    </div>
+    
+   
 
     <div class="fig">
         <figure class="html">
             <img src="./img/html.png">
             <figcaption>
-                <p>Med <em>HTML5</em> ökar möjligheterna att göra en snygg hemsida med animationer samt att göra den mer semantiskt korrekt.</p>
+                <p><em>HTML5</em> är den senaste standarden för märkspråken HTML och XHTML. Denna version fastställdes som slutgiltig och rekommenderad av organisationen World Wide Web Consortium (W3C) den 28 Oktober 2014. Standarden påbörjades av Web Hypertext Application Technology Working Group (WHATWG) och är den femte revisionen av HTML.</p>
+
+                <p>Ledande principer för utvecklingen är bakåtkompatibilitet med existerande HTML, tydligare beskrivningar av hur webbläsare skall tolka och rendera koden och utvidgad funktionalitet. HTML5 inkluderar tekniker för ljud, video, grafik och webbapplikationer, såväl som text och bild</p>
             </figcaption>
         </figure>
 
@@ -69,22 +75,25 @@
         <figure class="css">
             <img src="./img/css.png">
             <figcaption>
-                <p><em>CSS</em> är stylingspråket och med detta är möjligheterna att skapa en vacker hemsida oändliga.</p>
+                <p><em>CSS (Cascading Style Sheets)</em> är ett språk som beskriver presentationsstilen för ett strukturerat dokument som till exempel typsnitt, textstorlek och färg. Tekniken är ett sätt att anpassa dokumentet med hänsyn till datortyp, skärmupplösning, färgdjup och installerade typsnitt.</p>
+                <p>Ett HTML-baserat dokument har inte på förhand en given utformning utan består av strukturerad text utan stilinformation. Hur dokumentet skrivs ut på papper, på en webbsida, på displayen i en mobiltelefon eller en handdator, bestäms normalt av programmet som hanterar dokumentet (t.ex. webbläsaren), utgående från programmets inställningar.</p>
             </figcaption>
         </figure>
 
         <figure class="js">
             <img src="./img/js.png">
             <figcaption>
-                <p>Med <em>Javascript</em> går det att skapa en mängd olika funktioner som passar ert behov bäst.</p>
+                <p><em>Javascript</em> är ett skriptspråk som är dynamiskt och hanterar funktioner som första-klass-objekt. Javascript används främst på klientsidan i webbtillämpningar, det vill säga exekveras i en webbläsares javascript-motor. Då Javascript används i webbläsare arbetar det mot ett gränssnitt som kallas Document Object Model (DOM). Vanligtvis inbäddas Javascript i, eller inkluderas från, HTML-sidor. Exempel på användningsområden är kontroll av ifyllda fält innan formulär skickas till en server, funktioner för att visa eller dölja delar av en sida och växling av annonsbilder med visst intervall. Javascript kan även användas för mer avancerade funktioner i en webbläsare såsom spel och bildbehandling.</p>
             </figcaption>
         </figure>
 
         <figure class="wp">
             <img src="./img/wp.png">
             <figcaption>
-                <p><em>Wordpress</em> är den främsta bloggplattformen idag. Vi skapar en mall och ni som kund skapar innehållet.
-                </p>
+                <p><em>Wordpress</em> ofta versaliserat WordPress, är ett blogg- och innehållshanteringssystem skrivet i PHP och som använder databasen MySQL för datalagringen. Det distribueras under en GNU General public-licens och kan laddas ner och användas kostnadsfritt. Det är ett av de populäraste publiceringssystemen på marknaden och finns på tusentals bloggar och webbplatser.</p>
+
+                <p>Wordpress har under åren utvecklats från ett bloggsystem till att även kunna hantera hela webbplatser likt ett mer avancerat CMS-system. Eftersom innehållet på alla sidor blir tillgängligt via en inloggningssida behöver man inte någon FTP-klient för att kunna redigera och uppdatera sina sidor på webbplatsen.</p>
+                
             </figcaption>
         </figure>
 
