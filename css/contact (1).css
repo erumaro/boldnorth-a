@@ -1,8 +1,7 @@
 /*contact*/
 
 .contact-wrapper {
-	background-color: black;
-	background-image: url("../img/Untitled2.jpg");
+	background-image: url("../img/untitled2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
@@ -138,7 +137,7 @@ iframe {
 
 @media screen and (min-width: 768px) {	
 	.contact-wrapper {
-		background-image: url("../img/Untitled.jpg");
+		background-image: url("../img/untitled.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
 		padding: 30px 0 50px 0;
