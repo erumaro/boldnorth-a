@@ -1,87 +1,100 @@
-/* HEADER */
+/* HEADER MOBILE */
 
 header {
-    background-image: url(../img/stockholm2.jpg);
+    background-image: url(../img/header.jpg);
     background-size: cover;
     width: 100vw;
     height: 100vh;
-}
+	}
 
 header img {
-    width: 90%;
+    width: 85%;
     margin: 5%;
-}
+    }
+
 
 /* MENY */
 
 nav ul {
     padding: 0;
     margin: 0;
-}
+    }
 
 nav li {
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+    font-weight: 400;
     font-size: 10vw;
     list-style: none;
-    text-align: center; 
-}
+    text-align: center;
+    }
 
 nav a {
     text-decoration: none;
-    color: black;
-}
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+	}
 
-.pad {
+nav a:hover {
+    color: #FFF;
+    }
+
+.desktop {
 	display: none;
+    }
+
+@media screen and (orientation:landscape) {
+
+nav li {
+    font-size: 4vw;
+    }
 }
 
 @media screen and (min-width: 768px) {
-	.mobile {
-		display: none;
-	}
-	.pad {
-		display: inline-block;
-	}
-	header img {
-		width: 30%;
-		margin-top: 5%;
-		margin-left: 5%;
-		margin-right: 0;
-	}
-	header {
-		/* background: #ab6e39; */
-	   background-image: url(../img/stockholm2.jpg);
-		background-size: cover;
-		height: 120vh;
-	}
+    
+    /* HEADER DESKTOP */
+	
+.mobile {
+    display: none;
+    }
 
-
+.desktop {
+    display: inline-block;
+    }
+    
+header img {
+	width: 30%;
+    }
+    
 	/* MENY DESKTOP */
-	nav {
-		float: right;
-		margin-top: 7.4%;
-		margin-right: 5%;
+    
+nav {
+	float: right;
+	margin-top: 7.4%;
+    margin-left: 0;
+	padding-right: 5%;
 	}
-/*	nav ul {
-		padding: 0;
-		margin: 0;
-	} */
-	nav li {
-		font-family: 'Roboto', sans-serif;
-		font-weight: bold;
-		font-size: 2vw;
-		list-style: none;
-		text-align: left;
-		display: inline-block;
-		padding-left: 20px;
-	}
-	nav a {
-		text-decoration: none;
-		color: black;
-	}
-	nav a:hover {
-		text-decoration: none;
-		color: white;
-	}
+	
+
+nav li {
+    font-size: 2vw; 
+	display: inline-block;
+    margin-left: 20px;
+    }
+	
+/* MENY MOUSEOVER*/
+    
+nav a.slide:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0px;
+    transition: width .5s ease, background-color .5s ease;
+    }
+    
+nav a.slide:hover:after {
+    width: 100%;
+    background: #D7342C;
+    }
 }
