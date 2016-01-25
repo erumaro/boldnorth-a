@@ -1,10 +1,13 @@
+
 .about-wrapper {
-  /* width: 90%; */
-	width: 100vw;
-  height: 100vh;
+  width: 100vw;
   margin: 0 auto;
 }
 
+.members {
+  width: 100vw;  
+  margin: 0 5%;
+}
 /* --- ABOUT --- */
   
 .about {
@@ -14,8 +17,6 @@
 }
 
 /* --- THE TEAM--- */
-
-
 
 .thumb {
     margin-top: 20px;
@@ -84,22 +85,25 @@
 
 @media only screen and (max-width: 480px) {
   
+.members {
+  margin: 0 auto;
+}
   .thumb {
     width: 100%;
   } 
-  
   .rubrik > h1 {
     letter-spacing: 10px;
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 481px) {
  .thumb > div div {
     padding: 50px 40px;
 }
   .thumb i {
     font-size: 14px;
   }
+
 }
 
 @media only screen and (min-width: 1024px) {
