@@ -33,16 +33,20 @@
     position: relative;
     margin: 3%;
     border: 1px solid #ebebeb;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .back{
     padding: 2%;
+    text-align: center;
 }
 
 .project-links{
     list-style: none;
     color: #fff;
     padding: 0;
+    text-align: center;
 }
 
 .project-links li{
