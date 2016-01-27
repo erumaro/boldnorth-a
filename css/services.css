@@ -12,12 +12,6 @@ section.services h2 {
     text-align: center;
     }
 
-section.services:after {
-    content: "";
-    display: table;
-    clear: both;
-    }
-
 /* IKONER OCH BESKRIVNING */
 
 figure {
