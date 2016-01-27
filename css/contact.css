@@ -7,12 +7,12 @@
 	background-size: cover;
 	width: 100%;
 }
+
 .contact-info {
 	background: rgba(255,255,255,0.5);
 	max-width:500px;
 	margin: 0 auto;
 	padding-bottom: 15px;
-	
 }
 
 .contact-info h1, 

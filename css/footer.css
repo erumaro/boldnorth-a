@@ -24,10 +24,6 @@ footer section:last-child {
 	border:0;
 }
 
-.logo {
-	
-}	
-
 .social img {
 	float: left;
 	height: 60px;
@@ -39,9 +35,9 @@ footer section:last-child {
 
 .footer-content {
 	box-sizing: border-box;
+	line-height: 2.2em;
 	margin-left:5%;
 	width: 95%;
-	line-height: 2.2em;
 }
 	
 .footer-content a {
@@ -71,8 +67,10 @@ footer h1 {
 	text-align: left;
 }
 
-footer p {
+footer p,
+address {
 	font-size: 1.5em;
+	font-style: normal;
 	font-weight: normal;
 	letter-spacing: 2px;
 }
