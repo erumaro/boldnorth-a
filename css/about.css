@@ -6,6 +6,7 @@
 
 .members {
   width: 100vw;  
+  height: 60vh;
   margin: 0 5%;
 }
 /* --- ABOUT --- */
@@ -91,7 +92,7 @@
   .thumb {
     width: 100%;
   } 
-  .thumb div div {
+  .thumb i {
     font-size: 30px;
   }
   .rubrik > h1 {
